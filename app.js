@@ -16,4 +16,7 @@ button.onclick=()=>{
         nav.style.display="block"
         button.setAttribute("src", "images/icon-close-menu.svg")
     }
+    if(nav.style.display == "none"){
+        console.log("ok")
+    }
 }
